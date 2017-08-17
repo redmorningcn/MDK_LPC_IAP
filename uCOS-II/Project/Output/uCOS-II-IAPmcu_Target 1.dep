@@ -1,0 +1,1334 @@
+Dependencies for Project 'uCOS-II-IAPmcu', Target 'Target 1': (DO NOT MODIFY !)
+F (.\uCOS-II\Source\os_core.c)(0x4CD7D5BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_core.o --omf_browse .\project\output\os_core.crf --depend .\project\output\os_core.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_flag.c)(0x4CD7D5CC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_flag.o --omf_browse .\project\output\os_flag.crf --depend .\project\output\os_flag.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_mbox.c)(0x4CD7D5D4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_mbox.o --omf_browse .\project\output\os_mbox.crf --depend .\project\output\os_mbox.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_mem.c)(0x4CD7D5DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_mem.o --omf_browse .\project\output\os_mem.crf --depend .\project\output\os_mem.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_mutex.c)(0x4CD7D5E6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_mutex.o --omf_browse .\project\output\os_mutex.crf --depend .\project\output\os_mutex.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_q.c)(0x4CD7D5F0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_q.o --omf_browse .\project\output\os_q.crf --depend .\project\output\os_q.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_sem.c)(0x4CD7D5F4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_sem.o --omf_browse .\project\output\os_sem.crf --depend .\project\output\os_sem.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_task.c)(0x54D84544)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_task.o --omf_browse .\project\output\os_task.crf --depend .\project\output\os_task.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_time.c)(0x4CD7D5FC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_time.o --omf_browse .\project\output\os_time.crf --depend .\project\output\os_time.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Source\os_tmr.c)(0x4CD7D602)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_tmr.o --omf_browse .\project\output\os_tmr.crf --depend .\project\output\os_tmr.d)
+I (..\uCOS-II\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_dbg.c)(0x5011F610)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_dbg.o --omf_browse .\project\output\os_dbg.crf --depend .\project\output\os_dbg.d)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu_a.asm)(0x5657D3C6)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\project\list\os_cpu_a.lst --xref -o .\project\output\os_cpu_a.o --depend .\project\output\os_cpu_a.d)
+F (.\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu_c.c)(0x5647F578)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\os_cpu_c.o --omf_browse .\project\output\os_cpu_c.crf --depend .\project\output\os_cpu_c.d)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+F (.\app.c)(0x59911BF5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\app.o --omf_browse .\project\output\app.crf --depend .\project\output\app.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\app_hooks.c)(0x55FFBC98)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\app_hooks.o --omf_browse .\project\output\app_hooks.crf --depend .\project\output\app_hooks.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\BSP\startup_LPC17xx.s)(0x52BBCB82)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\project\list\startup_lpc17xx.lst --xref -o .\project\output\startup_lpc17xx.o --depend .\project\output\startup_lpc17xx.d)
+F (.\BSP\system_LPC17xx.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\system_lpc17xx.o --omf_browse .\project\output\system_lpc17xx.crf --depend .\project\output\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+F (.\CSB\source\debug_frmwrk.c)(0x5992B9BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\debug_frmwrk.o --omf_browse .\project\output\debug_frmwrk.crf --depend .\project\output\debug_frmwrk.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_adc.c)(0x54C86482)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_adc.o --omf_browse .\project\output\lpc17xx_adc.crf --depend .\project\output\lpc17xx_adc.d)
+I (.\CSB\include\lpc17xx_adc.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_can.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_can.o --omf_browse .\project\output\lpc17xx_can.crf --depend .\project\output\lpc17xx_can.d)
+I (.\CSB\include\lpc17xx_can.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_clkpwr.c)(0x54D1DC1C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_clkpwr.o --omf_browse .\project\output\lpc17xx_clkpwr.crf --depend .\project\output\lpc17xx_clkpwr.d)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+F (.\CSB\source\lpc17xx_dac.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_dac.o --omf_browse .\project\output\lpc17xx_dac.crf --depend .\project\output\lpc17xx_dac.d)
+I (.\CSB\include\lpc17xx_dac.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_emac.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_emac.o --omf_browse .\project\output\lpc17xx_emac.crf --depend .\project\output\lpc17xx_emac.d)
+I (.\CSB\include\lpc17xx_emac.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_exti.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_exti.o --omf_browse .\project\output\lpc17xx_exti.crf --depend .\project\output\lpc17xx_exti.d)
+I (.\CSB\include\lpc17xx_exti.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_gpdma.c)(0x52BBE188)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_gpdma.o --omf_browse .\project\output\lpc17xx_gpdma.crf --depend .\project\output\lpc17xx_gpdma.d)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_i2c.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_i2c.o --omf_browse .\project\output\lpc17xx_i2c.crf --depend .\project\output\lpc17xx_i2c.d)
+I (.\CSB\include\lpc17xx_i2c.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_i2s.c)(0x52B3B068)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_i2s.o --omf_browse .\project\output\lpc17xx_i2s.crf --depend .\project\output\lpc17xx_i2s.d)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_iap.c)(0x565E7D50)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_iap.o --omf_browse .\project\output\lpc17xx_iap.crf --depend .\project\output\lpc17xx_iap.d)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_lpc17xx.h)(0x5848DD22)
+F (.\CSB\source\lpc17xx_libcfg_default.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_libcfg_default.o --omf_browse .\project\output\lpc17xx_libcfg_default.crf --depend .\project\output\lpc17xx_libcfg_default.d)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+F (.\CSB\source\lpc17xx_mcpwm.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_mcpwm.o --omf_browse .\project\output\lpc17xx_mcpwm.crf --depend .\project\output\lpc17xx_mcpwm.d)
+I (.\CSB\include\lpc17xx_mcpwm.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_nvic.c)(0x528D9CEC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_nvic.o --omf_browse .\project\output\lpc17xx_nvic.crf --depend .\project\output\lpc17xx_nvic.d)
+I (.\CSB\include\lpc17xx_nvic.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+F (.\CSB\source\lpc17xx_pinsel.c)(0x54D084CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_pinsel.o --omf_browse .\project\output\lpc17xx_pinsel.crf --depend .\project\output\lpc17xx_pinsel.d)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+F (.\CSB\source\lpc17xx_pwm.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_pwm.o --omf_browse .\project\output\lpc17xx_pwm.crf --depend .\project\output\lpc17xx_pwm.d)
+I (.\CSB\include\lpc17xx_pwm.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_qei.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_qei.o --omf_browse .\project\output\lpc17xx_qei.crf --depend .\project\output\lpc17xx_qei.d)
+I (.\CSB\include\lpc17xx_qei.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_rit.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_rit.o --omf_browse .\project\output\lpc17xx_rit.crf --depend .\project\output\lpc17xx_rit.d)
+I (.\CSB\include\lpc17xx_rit.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_rtc.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_rtc.o --omf_browse .\project\output\lpc17xx_rtc.crf --depend .\project\output\lpc17xx_rtc.d)
+I (.\CSB\include\lpc17xx_rtc.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_spi.c)(0x528F0248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_spi.o --omf_browse .\project\output\lpc17xx_spi.crf --depend .\project\output\lpc17xx_spi.d)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_ssp.c)(0x54D800C2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_ssp.o --omf_browse .\project\output\lpc17xx_ssp.crf --depend .\project\output\lpc17xx_ssp.d)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_systick.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_systick.o --omf_browse .\project\output\lpc17xx_systick.crf --depend .\project\output\lpc17xx_systick.d)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_timer.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_timer.o --omf_browse .\project\output\lpc17xx_timer.crf --depend .\project\output\lpc17xx_timer.d)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_uart.c)(0x528D62B2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_uart.o --omf_browse .\project\output\lpc17xx_uart.crf --depend .\project\output\lpc17xx_uart.d)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_wdt.c)(0x54DDBDF0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_wdt.o --omf_browse .\project\output\lpc17xx_wdt.crf --depend .\project\output\lpc17xx_wdt.d)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\CSB\source\lpc17xx_gpio.c)(0x4FBF2E2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\lpc17xx_gpio.o --omf_browse .\project\output\lpc17xx_gpio.crf --depend .\project\output\lpc17xx_gpio.d)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_libcfg_default.h)(0x4FBF2E2A)
+F (.\APP_TEST\GPIO_Test.c)(0x56C2C196)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\gpio_test.o --omf_browse .\project\output\gpio_test.crf --depend .\project\output\gpio_test.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\APP_TEST\MX25L1602Drv\MX25L1602Drv.c)(0x54FEAF38)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\mx25l1602drv.o --omf_browse .\project\output\mx25l1602drv.crf --depend .\project\output\mx25l1602drv.d)
+I (APP_TEST\MX25L1602Drv\MX25L1602Drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\APP_TEST\GPIO_APP.c)(0x56C2C232)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\gpio_app.o --omf_browse .\project\output\gpio_app.crf --depend .\project\output\gpio_app.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\APP_TEST\UART1.c)(0x57A95328)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\uart1.o --omf_browse .\project\output\uart1.crf --depend .\project\output\uart1.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\APP_TEST\UART2.c)(0x56DFDDD4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\uart2.o --omf_browse .\project\output\uart2.crf --depend .\project\output\uart2.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\APP_TEST\UART3.c)(0x56DFDDA0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\uart3.o --omf_browse .\project\output\uart3.crf --depend .\project\output\uart3.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\APP_TEST\UART0.c)(0x565D675E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\uart0.o --omf_browse .\project\output\uart0.crf --depend .\project\output\uart0.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\HoldTask\ADC.c)(0x5600A4FC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\adc.o --omf_browse .\project\output\adc.crf --depend .\project\output\adc.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+I (.\CSB\include\lpc17xx_adc.h)(0x4FBF2E2A)
+F (.\APP_TEST\timer.c)(0x563F54CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\timer.o --omf_browse .\project\output\timer.crf --depend .\project\output\timer.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\Globe\CrcCheck.c)(0x56580438)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\crccheck.o --omf_browse .\project\output\crccheck.crf --depend .\project\output\crccheck.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\Globe\FIFO.c)(0x56D80C70)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\fifo.o --omf_browse .\project\output\fifo.crf --depend .\project\output\fifo.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\Globe\GlobePara.c)(0x560492E8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\globepara.o --omf_browse .\project\output\globepara.crf --depend .\project\output\globepara.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (.\tmp.c)(0x5992A8B9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\tmp.o --omf_browse .\project\output\tmp.crf --depend .\project\output\tmp.d)
+I (includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\SlaveConTask\csnr.c)(0x56FA90EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\csnr.o --omf_browse .\project\output\csnr.crf --depend .\project\output\csnr.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\IAP_MCU\IAP_program_mcu.C)(0x599526D2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\iap_program_mcu.o --omf_browse .\project\output\iap_program_mcu.crf --depend .\project\output\iap_program_mcu.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\HoldTask\Display.c)(0x54FFEE60)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\display.o --omf_browse .\project\output\display.crf --depend .\project\output\display.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\HoldTask\DS3231.c)(0x56038BAC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\ds3231.o --omf_browse .\project\output\ds3231.crf --depend .\project\output\ds3231.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+I (..\DipSoftware\HoldTask\DS3231.h)(0x53A27E98)
+F (..\DipSoftware\HoldTask\Led.c)(0x55FA2F8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\led.o --omf_browse .\project\output\led.crf --depend .\project\output\led.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\HoldTask\WatchDog.C)(0x5992DCC1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\watchdog.o --omf_browse .\project\output\watchdog.crf --depend .\project\output\watchdog.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
+F (..\DipSoftware\HoldTask\IIC.c)(0x53C4E0BE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\uCOS-II -I .\uCOS-II -I .\uCOS-II\Ports -I .\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView -I .\uCOS-II\Source -I .\App -I .\CSB\include -I .\APP_TEST -I .\APP_TEST\MX25L1602Drv -I .\APP_TEST -I .\APP_TEST\OCM800600T80 -I .\uCGUI -I .\uCGUI\GUI\AntiAlias -I .\uCGUI\GUI\ConvertColor -I .\uCGUI\GUI\ConvertMono -I .\uCGUI\GUI\Core -I .\uCGUI\GUI\Font -I .\uCGUI\GUI\JPEG -I .\uCGUI\GUI\LCDDriver -I .\uCGUI\GUI\MemDev -I .\uCGUI\GUI\MultiLayer -I .\uCGUI\GUI\Widget -I .\uCGUI\GUI\WM -I .\uCGUI\Config -I ..\DipSoftware\Globe -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\CardOperateTask -I ..\DipSoftware\DataDealTask -I ..\DipSoftware\HoldTask -I ..\DipSoftware\MastConTask -I ..\DipSoftware\SlaveConTask-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DLPC175x_6x-o .\project\output\iic.o --omf_browse .\project\output\iic.crf --depend .\project\output\iic.d)
+I (..\uCOS-II\includes.h)(0x5658029E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\uCOS-II\app_cfg.h)(0x5077D01A)
+I (.\uCOS-II\Source\ucos_ii.h)(0x4D415ECE)
+I (..\uCOS-II\os_cfg.h)(0x504015AA)
+I (..\uCOS-II\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x533ACC7A)
+I (.\CSB\include\lpc17xx_pinsel.h)(0x4FBF2E2A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x5848DD22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x591BAF29)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x5848DD22)
+I (.\CSB\include\lpc_types.h)(0x54D84274)
+I (.\CSB\include\lpc17xx_gpio.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_clkpwr.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_uart.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_systick.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_spi.h)(0x54D03168)
+I (.\CSB\include\lpc17xx_ssp.h)(0x54D2E546)
+I (.\CSB\include\lpc17xx_i2s.h)(0x52B26D6A)
+I (.\CSB\include\lpc17xx_gpdma.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_timer.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_iap.h)(0x4FBF2E2A)
+I (.\CSB\include\lpc17xx_wdt.h)(0x4FBF2E2A)
+I (.\CSB\include\debug_frmwrk.h)(0x528EE524)
+I (.\APP_TEST\MX25L1602Drv\mx25l1602drv.h)(0x53C8B686)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\APP_TEST\UART_Test.h)(0x53BCB9A2)
+I (.\APP_TEST\GPIO_Test.h)(0x53BCBA4C)
+I (.\APP_TEST\GPIO_APP.h)(0x54BDB068)
+I (.\APP_TEST\SPI_Test.h)(0x53BCBA18)
+I (..\DipSoftware\Globe\DataTypeDef.h)(0x560A1D30)
+I (..\DipSoftware\Globe\IdDataTypeDef.h)(0x53A244A0)
+I (..\DipSoftware\Globe\CardDataTypeDef.h)(0x5610B694)
+I (..\DipSoftware\Globe\RecDataTypeDef.h)(0x56048656)
+I (..\DipSoftware\Globe\LocoModTypeDef.h)(0x53A24496)
+I (..\DipSoftware\Globe\GlobePara.h)(0x56049512)
+I (..\DipSoftware\Globe\FIFO.h)(0x56D804C6)
+I (..\DipSoftware\Globe\globe.h)(0x5603637E)
+I (..\uCOS-II\tmp.h)(0x53C8B6A0)
