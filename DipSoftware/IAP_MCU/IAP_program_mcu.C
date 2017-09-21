@@ -447,14 +447,14 @@ void    IAP_CopyAppToFlash(stcIAPPara *sIAPPara)
         
         finshlen += IAP_WRITE_1024;                     //地址累加  
         
-        for(i = 0; i< IAP_WRITE_1024;i++)
+        //for(i = 0; i< IAP_WRITE_1024;i++)
         {
-            printfcom0("%02x",buf[i]);
+        //    printfcom0("%02x",buf[i]);
         }
         FeedDog();
     }   
     
-    zyIrqEnable();                                  //?flash???,?????
+    zyIrqEnable();                                  //?flash???,?????   0731-22689503   6246  7405
 }
 
 
@@ -479,23 +479,26 @@ void    IAP_ProgramCopy(void)
     
     crc16 = GetCrc16Check((uint8 *)&sIapPara,sizeof(stcIAPPara)-2);  //算校验
     
-    printfcom0("\r\n\r\n");
+    FeedDog();
+
     if( crc16 == sIapPara.crc16 &&                          //校验正确，且copy指令，则执行copy操作,
         sIapPara.code == IAP_COPY_BACK_APP &&               //数据区 数据大小 是否有效
         sIapPara.softsize > 0x100 &&
         sIapPara.softsize < USER_APP_PRO_SIZE
       )
     {
-        IAP_CopyAppToFlash(&sIapPara);                      //数据从back区copy至app区
-    }
-    
-    printfcom0("\r\n\r\n");
+         printfcom0("\r\n启动加载.....\r\n");
 
-    sIapPara.code   = 0;
-    crc16 = GetCrc16Check((uint8 *)&sIapPara,sizeof(stcIAPPara)-2);  //计算校验
-    sIapPara.crc16  = crc16;                                        //校验赋值
+        IAP_CopyAppToFlash(&sIapPara);                      //数据从back区copy至app区
+
+        sIapPara.code   = 0;
+        crc16 = GetCrc16Check((uint8 *)&sIapPara,sizeof(stcIAPPara)-2);  //计算校验
+        sIapPara.crc16  = crc16;             
+        //修改copy指令，重新写入
+        IAP_WriteParaFlash(&sIapPara);
     
-    //修改copy指令，重新写入
-    IAP_WriteParaFlash(&sIapPara);
+    }
+        
+    
 }
 
